@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.eachTodo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+}
+
+.deleteButton {
+  height: 30px;
+  width: 80px;
+  border-color: #ff0b37;
+  color: #ff0b37;
+  background-color: transparent;
+  border-radius: 6px;
+}
+.paragraph {
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #000000;
+}
